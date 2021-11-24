@@ -1,8 +1,8 @@
 # Homework-3
 
-Сравнительный анализ производительности Java коллекций.
+# Сравнительный анализ производительности Java коллекций.
 
-Сравнение MyLinkedList и java.util.LinkedList.
+# Сравнение MyLinkedList и java.util.LinkedList.
 
 ![1 1](https://user-images.githubusercontent.com/92428972/143219597-c1ee903f-fc2f-4ac8-a626-cf88388eff0d.PNG)
 ![1 2](https://user-images.githubusercontent.com/92428972/143219752-ffbe5c72-3e35-429f-8513-a5d6740489a6.PNG)
@@ -14,7 +14,7 @@
        Удаление в коллекции MyLinkedList производится намного быстрее, чем в и java.util.LinkedList при любом количестве элементов.
        
 
-Сравнение ArrayList и LinkedList.
+# Сравнение ArrayList и LinkedList.
 
 ![2 1](https://user-images.githubusercontent.com/92428972/143219837-a0d334a2-a4c7-4349-8dc9-2df11a782925.PNG)
 ![2 2](https://user-images.githubusercontent.com/92428972/143219852-ee2a3b60-d16b-47bd-ba2c-a3ce3ab11970.PNG)
@@ -23,7 +23,7 @@
        Доступ по индексу происходит очень быстро в ArrayList, так как построен он на базе массива. А добавление элементов в середину списка происходит медленно, т.к. нужно будет подвинуть каждый элемент, который идёт после, следовательно, для добавления (вставки) элементов в середину и конец списка удобно использовать LinkedList, что и показывает график времени работы. 
        Удаление элементов в ArrayList производится чуть быстрее, чем в LinkedList при любом количестве элементов. 
 
-Сравнение HashSet и LinkedHashSet и TreeSet.
+# Сравнение HashSet и LinkedHashSet и TreeSet.
 
 ![3 1](https://user-images.githubusercontent.com/92428972/143219893-a45900fc-ab85-4339-bc29-90f55d9a7d9c.PNG)
 ![3 2](https://user-images.githubusercontent.com/92428972/143219896-62109f96-b486-49da-bc5d-f6211c982c62.PNG)
@@ -35,7 +35,7 @@
        Поэтому если хотим сохранить порядок добавления элементов - используем LinkedHashSet, а если хотим получить отсортированный набор - тогда используем TreeSet.
 
 
-Сравнение HashMap и LinkedHashMap и TreeMap.
+# Сравнение HashMap и LinkedHashMap и TreeMap.
 
 ![4 1](https://user-images.githubusercontent.com/92428972/143219917-4d1b95ba-d8d2-424b-a2e7-9869848616d3.PNG)
 ![4 2](https://user-images.githubusercontent.com/92428972/143219921-97c7157e-19f0-432a-a405-706f4d3ed86b.PNG)
